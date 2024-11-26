@@ -1,0 +1,174 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+p {
+    margin: 0 0 20px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1368CC; 
+    color: #fff;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+.header-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    color: #1368CC; 
+    margin-bottom: 15px;
+}
+
+.section p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card ul li {
+    margin: 10px 0;
+    padding-left: 25px;
+    position: relative;
+}
+
+.card ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #1368CC;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #1368CC; 
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
+
+#languageToggle {
+    background-color: #1368CC;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#languageToggle:hover {
+    background-color: #104f99;
+}
+
+
+@media (max-width: 768px) {
+    .header-content {
+        padding: 0 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        max-width: 80px;
+    }
+
+    main {
+        margin: 20px auto;
+        padding: 0 10px;
+    }
+
+    .section h2 {
+        font-size: 1.5rem;
+    }
+
+    .section p {
+        font-size: 0.9rem;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card ul li {
+        padding-left: 20px;
+    }
+
+    .card ul li::before {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card ul li {
+        font-size: 0.9rem;
+        padding-left: 15px;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Términos y Políticas - Spike</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.png" alt="Logo Spike" class="logo">
+            <h1>Spike - Términos y Políticas</h1>
+            <p>Transparencia y compromiso con nuestros usuarios.</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="button-container">
+            <button id="languageToggle">Change to English</button>
+        </div>
+        
+        <section class="section" id="terms">
+            <h2>Términos y Condiciones</h2>
+            <p>Al utilizar Spike, aceptas los siguientes términos y condiciones:</p>
+            <p id="ad">TENGA EN CUENTA: Nos reservamos el derecho, a nuestro exclusivo criterio, de cambiar, modificar o alterar de otro modo 
+                estos Términos y condiciones en cualquier momento. A menos que se indique lo contrario, las modificaciones entrarán en vigor 
+                inmediatamente. Revise estos Términos y condiciones periódicamente. Su uso continuado del Sitio después de la publicación de 
+                cambios y/o modificaciones constituirá su aceptación de los Términos y condiciones revisados ​​y la razonabilidad de estos estándares 
+                para la notificación de cambios.</p>
+            <div class="card">
+                <ul id="terms-list">
+                    <li>Spike está diseñado exclusivamente para la gestión de citas y servicios veterinarios.
+                        Cualquier mal uso puede resultar en la suspensión de la cuenta.</li>
+                    <li>Los usuarios deben proporcionar información precisa sobre ellos y sus mascotas.</li>
+                    <li>Las clínicas veterinarias son responsables de garantizar la veracidad de la información que proporcionan.</li>
+                    <li>La calidad de los servicios veterinarios depende exclusivamente de las clínicas.</li>
+                    <li>Spike no se hace responsable por problemas derivados de información incorrecta proporcionada por usuarios o clínicas.</li>
+                    <li>Spike no se hace responsable por problemas derivados de negligencia, así como por daños directos, indirectos, incidentales, 
+                        punitivos o consecuentes que puedan surgir de los servicios ofrecidos por las clínicas veterinarias o del uso que los usuarios
+                        hagan de la plataforma.</li>
+                    <li>Al continuar usando Spike, aceptas las actualizaciones futuras de estos términos.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" id="privacy">
+            <h2>Políticas de Privacidad</h2>
+            <p>Spike protege tu información personal. Así gestionamos tus datos:</p>
+            <div class="card">
+                <h3 id="dataCollected">Datos recolectados:</h3>
+                <ul id="data-collected-list">
+                    <li>Usuarios: Nombre, ubicación, datos de mascotas, y más.</li>
+                    <li>Veterinarias: Información de la clínica, ubicación y servicios ofrecidos.</li>
+                </ul>
+                <h3 id="dataUsed">Uso de los datos:</h3>
+                <ul id="data-use-list">
+                    <li>Mostrar veterinarias cercanas según tu ubicación.</li>
+                    <li>Gestionar citas y servicios de manera eficiente.</li>
+                    <li>Nunca compartimos datos sin tu consentimiento.</li>
+                </ul>
+                <h3 id="security">Seguridad:</h3>
+                <ul id="security-list">
+                    <li>Implementamos encriptación avanzada para proteger tu información.</li>
+                    <li>Realizamos auditorías frecuentes para asegurar la integridad de los datos.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" id="proprietary-rights">
+            <h2>Derechos de Propiedad Intelectual</h2>
+            <div class="card">
+                <p>
+                    Este sitio y todos sus contenidos están destinados exclusivamente para uso personal y no comercial. Todo el contenido 
+                    está protegido por derechos de autor, marcas comerciales, patentes y otras leyes de propiedad intelectual. Aceptas no:
+                </p>
+                <ul id="proprietary-rights-list">
+                    <li>Modificar, alterar o desfigurar cualquier marca comercial, diseño o propiedad intelectual disponible en el sitio.</li>
+                    <li>Hacerte pasar por patrocinado, afiliado o respaldado por Spike o cualquiera de sus socios.</li>
+                    <li>Usar cualquier contenido para fines distintos a los proporcionados por Spike.</li>
+                    <li>Difamar o desacreditar a Spike, sus marcas o cualquier aspecto del sitio.</li>
+                    <li>Adaptar, traducir, modificar, descompilar, desensamblar o realizar ingeniería inversa del sitio o de sus servicios.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Spike. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        const translations = {
+            en: {
+                title: "Terms and Policies - Spike",
+                header: "Spike - Terms and Policies",
+                subtitle: "Transparency and commitment to our users.",
+                termsIntro: "By using Spike, you agree to the following terms and conditions:",
+                termsIntroP: "PLEASE NOTE: We reserve the right, at our sole discretion, to change, modify or otherwise alter these Terms and Conditions at any time. Unless otherwise indicated, the modifications will take effect immediately. Please review these Terms and Conditions periodically. Your continued use of the Site after the posting of changes and/or modifications will constitute your acceptance of the revised Terms and Conditions and the reasonableness of these standards for notification of changes.",                termsTitle: "Terms and Conditions",
+                termsList: [
+                    "Spike is exclusively designed for managing appointments and veterinary services.",
+                    "Users must provide accurate information about themselves and their pets.",
+                    "Veterinary clinics are responsible for ensuring the accuracy of the information they provide.",
+                    "The quality of veterinary services solely depends on the clinics.",
+                    "Spike is not responsible for issues arising from incorrect information provided by users or clinics.",
+                    "Spike is not responsible for negligence-related issues or for direct, indirect, incidental, punitive, or consequential damages that may arise from services offered by veterinary clinics or from users' use of the platform.",
+                    "By continuing to use Spike, you agree to future updates to these terms."
+                ],
+                privacyTitle: "Privacy Policies",
+                privacyContent: "Spike protects your personal information. Here's how we manage your data:",
+                dataCollected:"Data collected: ",
+                dataUsed:"Data use: ",
+                securrity:"Security: ",
+                dataCollectedList: [
+                    "Users: Name, location, pet details, and more.",
+                    "Veterinaries: Clinic information, location, and offered services."
+                ],
+                dataUseList: [
+                    "Display nearby veterinary clinics based on your location.",
+                    "Efficiently manage appointments and services.",
+                    "We never share data without your consent."
+                ],
+                securityList: [
+                    "We implement advanced encryption to protect your information.",
+                    "We conduct frequent audits to ensure data integrity."
+                ],
+                proprietaryRightsTitle: "Intellectual Property Rights",
+                proprietaryRightsContent: "This site and all its contents are intended solely for personal and non-commercial use. All content is protected by copyright, trademarks, patents, and other intellectual property laws. You agree not to:",
+                proprietaryRightsList: [
+                    "Modify, alter, or deface any trademark, design, or intellectual property available on the site.",
+                    "Misrepresent yourself as sponsored, affiliated, or endorsed by Spike or any of its partners.",
+                    "Use any content for purposes other than those provided by Spike.",
+                    "Defame or discredit Spike, its trademarks, or any aspect of the site.",
+                    "Adapt, translate, modify, decompile, disassemble, or reverse engineer the site or its services."
+                ],
+                footer: "© 2024 Spike. All rights reserved."
+            },
+            es: {
+                title: "Términos y Políticas - Spike",
+                header: "Spike - Términos y Políticas",
+                subtitle: "Transparencia y compromiso con nuestros usuarios.",
+                termsIntro: "Al utilizar Spike, aceptas los siguientes términos y condiciones:",
+                termsIntroP: "TENGA EN CUENTA: Nos reservamos el derecho, a nuestro exclusivo criterio, de cambiar, modificar o alterar de otro modo estos Términos y condiciones en cualquier momento. A menos que se indique lo contrario, las modificaciones entrarán en vigor inmediatamente. Revise estos Términos y condiciones periódicamente. Su uso continuado del Sitio después de la publicación de cambios y/o modificaciones constituirá su aceptación de los Términos y condiciones revisados ​​y la razonabilidad de estos estándares para la notificación de cambios.",
+                termsTitle: "Términos y Condiciones",
+                termsList: [
+                    "Spike está diseñado exclusivamente para la gestión de citas y servicios veterinarios.",
+                    "Los usuarios deben proporcionar información precisa sobre ellos y sus mascotas.",
+                    "Las clínicas veterinarias son responsables de garantizar la veracidad de la información que proporcionan.",
+                    "La calidad de los servicios veterinarios depende exclusivamente de las clínicas.",
+                    "Spike no se hace responsable por problemas derivados de información incorrecta proporcionada por usuarios o clínicas.",
+                    "Spike no se hace responsable por problemas derivados de negligencia, así como por daños directos, indirectos, incidentales, punitivos o consecuentes que puedan surgir de los servicios ofrecidos por las clínicas veterinarias o del uso que los usuarios hagan de la plataforma.",
+                    "Al continuar usando Spike, aceptas las actualizaciones futuras de estos términos."
+                ],
+                privacyTitle: "Políticas de Privacidad",
+                privacyContent: "Spike protege tu información personal. Así gestionamos tus datos:",
+                dataCollected:"Datos recolectados: ",
+                dataUsed:"Uso de los datos: ",
+                securrity:"Seguridad: ",
+                dataCollectedList: [
+                    "Usuarios: Nombre, ubicación, datos de mascotas, y más.",
+                    "Veterinarias: Información de la clínica, ubicación y servicios ofrecidos."
+                ],
+                dataUseList: [
+                    "Mostrar veterinarias cercanas según tu ubicación.",
+                    "Gestionar citas y servicios de manera eficiente.",
+                    "Nunca compartimos datos sin tu consentimiento."
+                ],
+                securityList: [
+                    "Implementamos encriptación avanzada para proteger tu información.",
+                    "Realizamos auditorías frecuentes para asegurar la integridad de los datos."
+                ],
+                proprietaryRightsTitle: "Derechos de Propiedad Intelectual",
+                proprietaryRightsContent: "Este sitio y todos sus contenidos están destinados exclusivamente para uso personal y no comercial. Todo el contenido está protegido por derechos de autor, marcas comerciales, patentes y otras leyes de propiedad intelectual. Aceptas no:",
+                proprietaryRightsList: [
+                    "Modificar, alterar o desfigurar cualquier marca comercial, diseño o propiedad intelectual disponible en el sitio.",
+                    "Hacerte pasar por patrocinado, afiliado o respaldado por Spike o cualquiera de sus socios.",
+                    "Usar cualquier contenido para fines distintos a los proporcionados por Spike.",
+                    "Difamar o desacreditar a Spike, sus marcas o cualquier aspecto del sitio.",
+                    "Adaptar, traducir, modificar, descompilar, desensamblar o realizar ingeniería inversa del sitio o de sus servicios."
+                ],
+                footer: "© 2024 Spike. Todos los derechos reservados."
+            }
+        };
+
+        let currentLang = 'es';
+
+        document.getElementById('languageToggle').addEventListener('click', () => {
+            currentLang = currentLang === 'es' ? 'en' : 'es';
+            const langData = translations[currentLang];
+
+            document.title = langData.title;
+            document.querySelector('header h1').textContent = langData.header;
+            document.querySelector('header p').textContent = langData.subtitle;
+            document.querySelector('#terms h2').textContent = langData.termsTitle;
+            document.querySelector('#terms p').textContent = langData.termsIntro;
+            document.querySelector('#terms-list').innerHTML = langData.termsList.map(item => `<li>${item}</li>`).join('');
+            document.querySelector('#privacy h2').textContent = langData.privacyTitle;
+            document.querySelector('#privacy p').textContent = langData.privacyContent;
+            document.querySelector('#data-collected-list').innerHTML = langData.dataCollectedList.map(item => `<li>${item}</li>`).join('');
+            document.querySelector('#data-use-list').innerHTML = langData.dataUseList.map(item => `<li>${item}</li>`).join('');
+            document.querySelector('#security-list').innerHTML = langData.securityList.map(item => `<li>${item}</li>`).join('');
+            document.querySelector('#proprietary-rights h2').textContent = langData.proprietaryRightsTitle;
+            document.querySelector('#proprietary-rights p').textContent = langData.proprietaryRightsContent;
+            document.querySelector('#proprietary-rights-list').innerHTML = langData.proprietaryRightsList.map(item => `<li>${item}</li>`).join('');
+            document.querySelector('footer p').textContent = langData.footer;
+            document.querySelector('#ad').textContent = langData.termsIntroP;
+            document.querySelector('#dataCollected').textContent = langData.dataCollected;
+            document.querySelector('#dataUsed').textContent = langData.dataUsed;
+            document.querySelector('#security').textContent = langData.securrity;
+
+
+
+            document.getElementById('languageToggle').textContent = 
+                currentLang === 'es' ? "Change to English" : "Cambiar a Español";
+        });
+    </script>
+</body>
+</html>
+
